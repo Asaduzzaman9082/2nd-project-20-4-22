@@ -1,0 +1,36 @@
+@media screen and (max-width:575px){
+
+    /* landing section start */
+    .home-btn .btn-shop{
+        border: 2px solid white;
+        color: var(--text-white);
+        width: 150px;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .home-btn .btn-shop:hover{
+        border-color: var(--text-danger);
+        background: var(--bg-danger);
+        color:var(--text-white);
+    }
+    .home-btn .btn-member{
+        border: 2px solid white;
+        color: var(--text-white);
+        width: 150px;
+        font-size: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+       
+    }
+    .home-btn .btn-member:hover{
+        border-color: var(--text-danger);
+        background: var(--bg-danger);
+        color:var(--text-white);
+    }
+
+     /* landing section end */
+}
+
+@media screen and (min-width:576px) and (max-width:767px){
+    
+}
